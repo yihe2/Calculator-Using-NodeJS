@@ -24,7 +24,7 @@ apps:
         provision:
           type: nodejs18x
           root_path: .
-          start_command: node src/app.js
+          start_command: npm start
           timeout: 120
       prod:
         build:
@@ -33,5 +33,5 @@ apps:
         provision:
           type: nodejs18x
           root_path: .
-          start_command: node src/app.js
+          start_command: npm start
           timeout: 120
